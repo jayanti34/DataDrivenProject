@@ -14,6 +14,11 @@ class ICICI extends Bank{
 		return 7;
 	}
 }
+class Mega extends Bank{
+	int getRateOfInterest() {
+		return 12;
+	}
+}
 class Axis extends Bank{
 	int getRateOfInterest() {
 		return 8;
